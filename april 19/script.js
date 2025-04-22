@@ -33,18 +33,17 @@
 /*                                         april 19  */
 
 // array 
-
 const number=[1,3,5,6,9]; 
-
 console.log(number, typeof number); 
 
-// object literal
-// const person= {
-// }
+//  objects  or  object literal
+let person = {
+    name: "ram", 
+    age: 22
+}
 
 //      Function  
 //      function declaration 
-
 function sayHello() {
     console.log("hello"); 
 }

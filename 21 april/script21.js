@@ -85,11 +85,9 @@ console.log(output);
 
 var z = "javascript"; 
 
-a = z.charAt(0); 
-
-out = z.substring(0); 
-
-console.log(a);  
+z = z.charAt(0).toUpperCase() + z.substring(1);   
+  // here  text.first.second   like this  . .  we will add methods to apply in our work
+console.log(z); 
 
 
 
