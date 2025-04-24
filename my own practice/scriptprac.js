@@ -1,26 +1,26 @@
 // numbers and maths in javascript  / 
 
-const score = 200 
+const Score = 200 
 console.log(score);
 
-const balance = new Number(100) /////////
-console.log(balance);
+const Balance = new Number(100) /////////
+console.log(Balance);
 
-console.log(balance.toString());   //100
-console.log(balance.length); // undefined 
+console.log(Balance.toString());   //100
+console.log(Balance.length); // undefined 
 
-console.log(balance.toFixed(2));   // till 2 after decimal      
+console.log(Balance.toFixed(2));   // till 2 after decimal      
 // 100.00
 
-const otNum = 23.8955 
-console.log(otNum.toPrecision(3));  
+const otherNum = 23.8955 
+console.log(otherNum.toPrecision(3));  
 // 23.9     give precise value with rounds off 
 // should be used carefully 
 
 const hundereds = 1000000 
-console.log(hundereds.toLocaleString()); 
+console.log(hundered.toLocaleString()); 
 // 10,00,000    value acc to US stands  hund thousands ...
- console.log(hundereds.toLocaleString('en-IN'));     
+ console.log(hundered.toLocaleString('en-IN'));     
 // en-IN acc to indian standards
 
 //                          maths                   //
@@ -62,7 +62,7 @@ console.log(otNum.toPrecision(3));
 // 23.9     give precise value with rounds off 
 // should be used carefully 
 
-const hundereds = 1000000 
+const hundered = 1000000 
 console.log(hundereds.toLocaleString()); 
 // 10,00,000    value acc to US stands  hund thousands ...
  console.log(hundereds.toLocaleString('en-IN'));     
