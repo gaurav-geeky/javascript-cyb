@@ -23,7 +23,6 @@ for (let i=0; i<5; i++) {
     console.log(arr1[i]); 
 }
 console.log("so 1 - 3 element of Array: "); 
-
 for ( let i =0; i<1; i++) { 
     console.log(arr1.slice(1, 4));
 } 
