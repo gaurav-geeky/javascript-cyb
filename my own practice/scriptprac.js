@@ -1,7 +1,7 @@
 // numbers and maths in javascript  / 
 
-const Score = 200 
-console.log(score);
+const Score = 200; 
+console.log(Score);
 
 const Balance = new Number(100) /////////
 console.log(Balance);
@@ -85,31 +85,57 @@ console.log(Math.sqrt(9));
 console.log(Math.random()); 
  // value comes always b/w 0 - 1.  mostly  decimal .000
 
+// *******************  practice test - 1 ************88 //
+
+var name = 'john'; 
+console.log(name, typeof name);   
+
+var age = 33 
+console.log(age);
+
+var eligible = true; 
+console.log(eligible, typeof eligible);
+
+var brain = null; 
+console.log(brain , typeof brain );
+
+var money 
+console.log(money, typeof money);
+
+console.log(10*8, "this is our mathematical operation of multiplication");
+
+// alert(age); 
+
+let myName = "gaurav" 
+let any = myName; 
+any = "fsfdfdfdf" 
+console.log(any);
+console.log(myName);
+
+//      object pass reference so original will change if copy 
+
+let user = { 
+    name: "aarif", 
+    age: 46, 
+}
+
+let user2 = user 
+
+user2.name = "jo jo beats"; 
+console.log(user); 
+console.log(user2); 
+
+let x = 2 === "2" 
+console.log(x);
 
 
+a = 5 +5; 
+// a = 5 -5; 
+// a = 5*5; 
+console.log(a);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+h = "hello " + "how are you?"
+console.log(h);
 
 
 
