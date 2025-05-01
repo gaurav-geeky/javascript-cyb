@@ -1,5 +1,5 @@
 // numbers and maths in javascript  / 
-
+/*
 const Score = 200; 
 console.log(Score);
 
@@ -84,6 +84,7 @@ console.log(Math.sqrt(9));
 //  Where we will use these Math methos ???   // here 
 console.log(Math.random()); 
  // value comes always b/w 0 - 1.  mostly  decimal .000
+*/
 
 // *******************  practice test - 1 ************88 //
 
@@ -138,25 +139,105 @@ h = "hello " + "how are you?"
 console.log(h);
 
 
+//          string topic        // 
+
+var a = 67; 
+var b = 999;  
+console.log(b, typeof b);
+b = b.toString(); 
+console.log(b, typeof b );
+
+var name = "john"; 
+var age = 44 
+var text = `my name is ${name} and age is ${age}` 
+console.log(`my name is ${name} and age is ${age}`);
+
+console.log(name.length);       // length is no of char only string ... 
+console.log(age.length); 
+
+console.log(name.charAt(2));  
+
+console.log(name[0]);       // char th  indexing 
+
+output = name.indexOf("n");     // indexOf  
+console.log(output);
+
+console.log(name.indexOf('h'));
+
+var now = "      carry on jatta      "
+
+console.log(now.trim());
+
+console.log(now);
+
+console.log(now.includes('att'));
+
+console.log(now.replace('on', 'by'));
+
+console.log(name.substring(1, 3));
+
+console.log(name.slice(2));
+
+console.log(name.toUpperCase());
+
+let z = 100 
+console.log(Math.sqrt(z));
+
+//  Math works only on  numbers 
+
+//  Array literals .. 
+
+const fruit = ['banana', 'kiwi', 'apple', 'mango', 'yoyo']
+
+const veg = ['tomato', 'carrot', 'raddish', 'onion', 'garlic']
+
+console.log(fruit); 
+console.log(veg[2]);
+
+console.log(veg[2].name);   // undefined 
+
+const color = []; 
+
+color[0] = 'red' 
+color[1] = 'blue'
+color[2] = 'green' 
+color[3] = 'yellow' 
+
+console.log(color);
+
+console.log(`my fav color is ${color[2]}`);
+
+let ok = [1, 2, 3 ,4, 5, 6, 7, 8, 99, 111]
+
+console.log(ok);    //  direct console to print array [, ,]
+ 
+for (let i=0; i<=9; i++) { 
+    console.log(ok[i]);
+}
+//              array for loop for element print only  , ,
+
+veg.push('tori', 'parmal', 'bhindi'); 
+console.log(veg, veg.length, typeof veg);
+
+veg.pop() 
+console.log(veg);
 
 
+let array = [1, 2, 3, 4, 5, 7, 8, 9, 22, 33, 55];
+array.splice(8, 4); // Removes 4 elements starting from index 8  //  SPLICE
+                    //  and give the rest elements          //  tukda hata deta hai 
+                                                        //  ORIGINAL changes
+console.log(array); // Output: [1, 2, 3, 4, 5, 7, 8, 9]
 
 
+console.log(array.slice(3, 5)); //  [4, 5]      // slice limit  //  SLICE 
+                                            // start +   end -   tukda deta hai 
+                                            //     original NO CHANGE
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+// for (let i=0; i<=7; i++) { 
+// }
+// console.log(array);
 
 
 
