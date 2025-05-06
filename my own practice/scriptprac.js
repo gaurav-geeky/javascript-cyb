@@ -240,6 +240,48 @@ console.log(array.slice(3, 5)); //  [4, 5]      // slice limit  //  SLICE
 // console.log(array);
 
 
+//      may 6... 
+//              normal function.. 
+function calculateAge() { 
+    const birthY = parseInt(prompt ("enter birth year: ")) 
+    const currentY = new Date().getFullYear(); 
+    if (birthY && !isNaN(birthY)) { 
+
+        const age = currentY - birthY; 
+        console.log(age);
+    }
+    else { 
+        console.log(`please enter valud year; `);
+    }
+}
+calculateAge(); 
+
+
+const getcelsius = (f) => (f-32)* 5/9 ;  // arrow function .  
+console.log(getcelsius(35));
+
+//                  IIFE  ( normal func)  ( argu) 
+(function (l, w) {
+
+    const area = l*w; 
+    console.log(area);
+} )( 4, 4)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

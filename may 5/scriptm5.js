@@ -27,9 +27,9 @@ console.log(square3);
 //  different browser has differenet named js engine.
 //  call stack : manages the  order of execution context    
 
-
 //  hoisting:  in let const value will be in temporal dead zone 
 //      and in var value is undefined .. 
+
 
 
 
