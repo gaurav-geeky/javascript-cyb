@@ -234,18 +234,53 @@ console.log(array.slice(3, 5)); //  [4, 5]      // slice limit  //  SLICE
                                             // start +   end -   tukda deta hai 
                                             //     original NO CHANGE
 
-
 // for (let i=0; i<=7; i++) { 
 // }
 // console.log(array);
 
+let arr11 = [] 
 
-//      may 6... 
+// for (let i=0; i<=4; i++) { 
+//     arr11[i]= parseInt( prompt ("enter array values: "))
+// } 
+
+// console.log('after slice 0 to 2 index elements : ');
+// for (let i=0; i<1; i++) { 
+//     console.log(arr11.slice(0, 3)); 
+// } 
+console.log(arr11);
+console.log("opopok ok ok");
+
+arr12 = [1, 2, 3, 4, 5] 
+arr13 = [5, 6, 7, 8, 9]
+
+console.log(arr12.splice(2,3));
+
+console.log(arr13.slice(2,2)); 
+
+
+console.log(`merge of arr12 and arr13 :  ${[...arr12, ...arr13]}`);
+// arr12.splice(4,1); 222
+
+console.log(`mergerr of arr12 and arr13 :  ${[...arr12, ...arr13].slice(4,1)}`);
+//  native code in reverse,  and   no 
+
+
+
+
+
+
+
+
+
+
+
+//      MAY 6...     ********    $$$$$$$$$   %%%%%%%%%%  &&&&&&&&    ###########     @@@@@@@@@2
 //              normal function.. 
 function calculateAge() { 
     const birthY = parseInt(prompt ("enter birth year: ")) 
     const currentY = new Date().getFullYear(); 
-    if (birthY && !isNaN(birthY)) { 
+    if (birthY && !isNaN(birthY)) {     //  what's this ??
 
         const age = currentY - birthY; 
         console.log(age);
@@ -256,7 +291,6 @@ function calculateAge() {
 }
 calculateAge(); 
 
-
 const getcelsius = (f) => (f-32)* 5/9 ;  // arrow function .  
 console.log(getcelsius(35));
 
@@ -265,7 +299,46 @@ console.log(getcelsius(35));
 
     const area = l*w; 
     console.log(area);
-} )( 4, 4)
+} )( 4, 4); 
+
+//  **********                  circle area   iife   *** examples 
+
+( function (r) { 
+    const areaCircle = (Math.PI)*r*r ; 
+    console.log(areaCircle);
+} )(7);
+//      153.93804002589985 
+
+
+//  *********           ( ARROW FUNCTION  IMP FOR react )    arrow  cylinder area
+const volCylinder = (r, h) => (Math.PI)*r*r*h ; 
+console.log(volCylinder(7, 10));    //  1539.3804002589986
+
+
+//                        arrow scope wala  hemisphere .. ardh gola  ***********. 
+const volHem = (r) => { 
+    return 2/3*(Math.PI)*r*r*r ; 
+}
+console.log(volHem(5)); //  261.79938779914943   
+// volHem(5);
+
+//  arrow and regular function is most imp 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
