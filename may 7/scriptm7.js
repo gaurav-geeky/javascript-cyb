@@ -75,7 +75,19 @@ sqaure();
 //      function to print  odd b/w   1 to 100. 
 //  to print even   b/t   2 to 200. 
 
+function oddEven () { 
 
+    for (let i=1; i<=100; i++) { 
+        if (i%2 == 0) { 
+            console.log(` even no: ${i}`);
+        } 
+        else { 
+            console.log(`odd no:  ${i}`);
+        }
+    }
+}
+
+oddEven(); 
 
 
 
