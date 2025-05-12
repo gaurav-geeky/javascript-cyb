@@ -324,7 +324,10 @@ console.log(volHem(5)); //  261.79938779914943
 
 //  arrow and regular function is most imp 
 
-
+const arr22 = [10, 20 , 30, 40, 50, 60]; 
+let newone = arr22.slice(1,4).reverse().toString().charAt(3); 
+console.log(newone);    // 3 
+// ***  when ARRAY is converted to STRING  each no. becomes a character but not ,
 
 
 

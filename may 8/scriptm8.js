@@ -28,7 +28,6 @@ myimg.src = "/photo/ted22.jpeg";                    //  attribute change..
 
 //  getElementById   method                .innerHTML  is property
 
-
 //      changing style   mainly  CSS  CSS  CSS   
 
 heading.style.color = "red"; 
