@@ -49,7 +49,7 @@ console.log(newArr);      // ans
 
 
 
-//object literal
+//  object literal
 
 const person = {
     name : "john",
