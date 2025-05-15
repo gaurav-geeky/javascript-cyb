@@ -35,6 +35,12 @@ let total = arr3.reduce( function(acc , currVal) {
 console.log(`so total of arr3 : `, total); 
 
 
+
+
+
+
+
+
 //  //  /   random  b/t  1- 15  5. 
 
 function getRandomIntInclusive(min, max) {
@@ -64,18 +70,45 @@ console.log(randomNumber);
 
 
 
+// array = [1, 2, 3, 4, 5]; 
+
+// function sumArray(arr) {
+//     let sum = 0; 
+
+//     for (let a of arr) { 
+//         sum += a; 
+//         return sum; 
+//     } 
+// }
+
+// console.log(sumArray([2, 4, 6])); 
+
+//   SUM of  elements of ARRAYS
+
+//                          simple loop
+let arr = [1, 2, 44, 4, 5];
+let sum = 0;
+
+for (let i = 0; i < arr.length; i++) { 
+    sum = sum + arr[i]
+}
+console.log(sum);   //  56  for loop simple method
+
+//                              
+let ray = [10, 20, 30, 40, 50]; 
+let add = 0;  
+
+for (let a of ray) { 
+    add = add + a;  
+}
+console.log(add);    // 150   for-of only       add + i
 
 
-
-
-
-
-
-
-
-
-
-
+let jod = 0; 
+for (let a in ray) { 
+    jod = jod + ray[a]; 
+}
+console.log(jod);     // 150 for-in need       add + arr[i]    
 
 
 
