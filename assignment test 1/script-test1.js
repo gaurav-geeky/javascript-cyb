@@ -69,14 +69,46 @@ for ( let i=0; i<newArr.length;  i++) {
 }
 console.log(long);    
 
-/*      Q 9. Write a Javascript program to find  the prime number in a given array? 
-10. Write a Javascript program to find  smallest valuue in an array? 
-11. Write a Javascript program to find  the sum of the values of an array? 
-13. Write a Javascript program to find  current age of any person  by using 
-his/her data of birth? 
-14. How to calculate the yesterday's date in JavaScript? 
-15. Write a Javascript program to find the given year is leap year or not?    */ 
+//                                      Q 9. Write a Javascript program to find  the PRIME number in a given array?
 
+let arr13 = [3, 6, 7, 9, 11, 15, 17, 23]; 
+
+for ( let i=0; i<arr13.length; i++)  { 
+    let prime = true; //                it is must  at every check point... otherwise wrong result; 
+
+    for (let j=2; j<arr13[i]; j++) { 
+ 
+        if (arr13[i]%j == 0) { 
+            prime = false; 
+            break; 
+        } 
+    } 
+    if (arr13[i] > 1 && prime == true) { 
+        console.log(arr13[i]);
+    } 
+}
+
+//                               Q 10. Write a Javascript program to find  smallest value in an array? 
+
+let arr11 = [ 6, 44, 12, 4, 111, 99]; 
+let small= arr11[0]; 
+
+for (let i=0; i<arr11.length; i++) { 
+    if (arr11[i] < small) { 
+        small = arr11[i]; 
+    } 
+}
+console.log(`smallest value in arr11: ${small}`);
+
+//                               Q 11. Write a Javascript program to find  the sum of the values of an array? 
+
+let arr12 = [1, 11, 2, 22, 4, 55]; 
+let sum=0; 
+
+for (let i=0; i<arr12.length; i++) { 
+    sum = sum + arr12[i]; 
+}
+console.log(`sum of values of array: ${sum}`);
 
 //                               Q 12. Write a Javascript program to check the given string is palindrome or not? 
 
@@ -92,6 +124,44 @@ if (str22 === arr22) {
 else { 
     console.log(`${str22} string is not palindrome`);  
 }
+
+//                                   Q 15. Write a Javascript program to find the given year is leap year or not?  
+
+let year = prompt("enter a year: "); 
+
+function varsh(saal) { 
+
+    if ((saal%4 == 0 && saal%100 != 0) || (saal%400 == 0)) { 
+        console.log(`it is leap year:`);
+    } 
+    else { 
+        console.log(`not a leap year :`);
+    }
+}
+
+varsh(year); 
+
+
+//                                  Q. 13. Write a Javascript program to find  current age of any person  by using his/her data of birth? 
+
+let current = new Date; 
+console.log(current.toDateString());
+
+let birth = new Date(1997,11,8); 
+console.log(birth.toDateString());
+
+let age = (current - birth); 
+console.log(`person age: ${age}`); 
+
+//                                  Q 14. How to calculate the yesterday's date in JavaScript?  
+
+
+
+
+
+
+
+
 
 
 
