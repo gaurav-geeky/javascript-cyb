@@ -102,7 +102,7 @@ myfunction();
 
 
 
-//  ****  may 19    test  ********    may 19  questions       **********  //  
+//  *********  may 19    test  ********    may 19  questions       **********  //  
 
 //  Q 1.  wap  to find   no is odd or even 
 function OddEven (n) { 
