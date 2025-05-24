@@ -141,44 +141,9 @@ function varsh(saal) {
 
 varsh(year); 
 
-
-//                                  Q. 13. Write a Javascript program to find  current age of any person  by using his/her data of birth? 
-
-let current = new Date; 
-console.log(current.toDateString());
-
-let birth = new Date(1997,11,8); 
-console.log(birth.toDateString());
-
-let age = (current - birth); 
-console.log(`person age: ${age}`); 
+//                                 Q. 13. Write a Javascript program to find  current age of any person  by using his/her data of birth? 
 
 //                                  Q 14. How to calculate the yesterday's date in JavaScript?  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

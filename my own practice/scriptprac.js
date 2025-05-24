@@ -269,30 +269,27 @@ console.log(`mergerr of arr12 and arr13 :  ${[...arr12, ...arr13].slice(4,1)}`);
 
 
 
-
-
-
-
-
-
 //      MAY 6...     ********    $$$$$$$$$   %%%%%%%%%%  &&&&&&&&    ###########     @@@@@@@@@2
-//              normal function.. 
+//              normal function..
+
 function calculateAge() { 
     const birthY = parseInt(prompt ("enter birth year: ")) 
     const currentY = new Date().getFullYear(); 
-    if (birthY && !isNaN(birthY)) {     //  what's this ??
 
+    if (birthY && !isNaN(birthY)) {     //  what's this ??
         const age = currentY - birthY; 
         console.log(age);
     }
+
     else { 
-        console.log(`please enter valud year; `);
+        console.log(`please enter valid year; `);
     }
 }
-calculateAge(); 
+calculateAge();  
+
 
 const getcelsius = (f) => (f-32)* 5/9 ;  // arrow function .  
-console.log(getcelsius(35));
+console.log(getcelsius(35));  
 
 //                  IIFE  ( normal func)  ( argu) 
 (function (l, w) {
@@ -328,35 +325,6 @@ const arr22 = [10, 20 , 30, 40, 50, 60];
 let newone = arr22.slice(1,4).reverse().toString().charAt(3); 
 console.log(newone);    // 3 
 // ***  when ARRAY is converted to STRING  each no. becomes a character but not ,
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
