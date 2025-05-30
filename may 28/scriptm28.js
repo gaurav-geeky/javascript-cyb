@@ -62,9 +62,15 @@ console.log(newNums);
 //  REDUCE : method  it is necessary in reduce  to take  2 parameters ( accumulator,  current value); 
 
 
+let arr = [1, 3, 6, 8, 44]; 
+
+// arr.forEach( function(x) { 
+//     if isNaN(x) { 
+//         console.log(x);
+//     }
+// })
 
 
-  
 
 
 
