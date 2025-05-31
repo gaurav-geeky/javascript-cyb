@@ -59,9 +59,26 @@ console.log(person.name);
 //   add new key: "value"; 
 person.city = "bhopal"; 
 
-person["district"] = "dewas"; 
+person["district"] = "bhopal"; 
 
 console.log(person);
+
+
+//  MAY 31    MAY 31.  
+
+// in the mem allocation phase all var are  undef  before executing any value : hoisting.  
+
+
+let f = "8"; 
+console.log(+f);   // direct way to convert string to number. 
+
+// array,  objct,  func store in heap  so   if   let arr1, arr2  same ele  but 
+
+//   types of error in js :::::  syntax,  reference,  type error.  
+
+
+
+
 
 
 

@@ -21,7 +21,7 @@ color.sort( (s1, s2) =>
 ); 
 console.log(color);
 
-//                              Q 4. remove all line break from string.   /\r?\n|\r/g 
+//                              Q 4. remove all line break from string.   /\r+?\n|\r/g 
 
 const stringWithLineBreaks = "This is a string\nwith line breaks.\r\nAnd some more.\r";
 const stringWithoutLineBreaks = stringWithLineBreaks.replace(/\r?\n|\r/g, " ");

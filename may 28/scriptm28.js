@@ -71,6 +71,37 @@ let arr = [1, 3, 6, 8, 44];
 // })
 
 
+//  MAP MAP  pic lena h . 
+
+const num1 = [1, 2, 3, 4, 5]; 
+
+const newArr = num1.map(myfun1); 
+
+function myfun1 (x) { 
+    return x*x; 
+} 
+console.log(newArr);
+
+//  map in new array but   in  for each not in new array only for printing. 
+
+// document.write( taken variable)   ;  method to print in document. 
+
+// when given func  as an argument in other function can not give ()  addevent is itself is function. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
