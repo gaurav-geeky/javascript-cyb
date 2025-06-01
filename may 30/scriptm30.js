@@ -72,7 +72,7 @@ console.log(person);
 let f = "8"; 
 console.log(+f);   // direct way to convert string to number. 
 
-// array,  objct,  func store in heap  so   if   let arr1, arr2  same ele  but 
+// array,  objct,  func store in heap  so   if   let arr1, arr2  same elements?   no because of different ref in heap. 
 
 //   types of error in js :::::  syntax,  reference,  type error.  
 

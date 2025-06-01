@@ -15,7 +15,7 @@
 
     console.log(`name: ${name} age: ${age} course: ${course}`); 
     alert(`name is ${name}, age: ${age}, course: ${course}`)
-}) ();
+} ) ();
 
 
 //          DOM  dom DOM  dom  DOM  dom  DOM  dom

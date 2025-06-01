@@ -16,6 +16,7 @@ display1();
 
 
 // b ***   return  with no parameter. 
+
 //  retrn    returns the value that can be store in variable.. 
 function display2 () { 
     return "world"; 
@@ -28,6 +29,7 @@ alert(result);
 
 
 //  c  ****  parameter with no return..  
+
 function display3(x, y) { 
     console.log(x + y);
 }
@@ -156,10 +158,6 @@ let area = circle(rad);
 console.log(area);
 
 ///////////  //////////////  ///////////  /////////// ///////////// //////// //////////
-
-
-
-
 
 
 

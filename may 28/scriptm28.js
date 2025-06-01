@@ -64,12 +64,11 @@ console.log(newNums);
 
 let arr = [1, 3, 6, 8, 44]; 
 
-// arr.forEach( function(x) { 
-//     if isNaN(x) { 
-//         console.log(x);
-//     }
-// })
-
+arr.forEach( function(x) { 
+    if (x>5) { 
+        console.log(x);
+    }
+})
 
 //  MAP MAP  pic lena h . 
 
@@ -82,11 +81,11 @@ function myfun1 (x) {
 } 
 console.log(newArr);
 
-//  map in new array but   in  for each not in new array only for printing. 
+//  map return a new array but     for-each not in new array only for printing. 
 
 // document.write( taken variable)   ;  method to print in document. 
 
-// when given func  as an argument in other function can not give ()  addevent is itself is function. 
+// addEventListener : when given func  as an argument in other function can not give (),   addevent is itself is function. 
 
 
 
