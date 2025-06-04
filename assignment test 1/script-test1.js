@@ -83,6 +83,7 @@ for ( let i=0; i<arr13.length; i++)  {
             break; 
         } 
     } 
+    
     if (arr13[i] > 1 && prime == true) { 
         console.log(arr13[i]);
     } 
@@ -147,8 +148,7 @@ varsh(year);
 
 
 
-
-
+//      Q a.  find lenght of last word in a string ? 
 
 
 
