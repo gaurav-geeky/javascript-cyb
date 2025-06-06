@@ -46,13 +46,14 @@ else {
 
 }
 
+//  template literal  use single  inside double "   '  '   "  vice-versa. 
 
 
 
+//  alt + D . 
 
-
-
-
+// Q
+//  design , all clear, operator should not come twice.  
 
 
 

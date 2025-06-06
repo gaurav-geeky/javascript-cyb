@@ -27,12 +27,14 @@ function touch() {
 //      here no need to call function because we are calling function in html and writing that 
 //     funtion in javascrippt         so it will , run.
 
+
 function display() { 
     let inp = document.getElementById('ip1').value; 
     let h2 = document.getElementById('head2'); 
     h2.innerHTML = inp;  
-}
-//      
+} 
+
+     
 
 //    ADD EVENT LISTENER     ADD EVENT LISTENER      ADD EVENT LISTENER      ADD EVENT LISTENER 
 
