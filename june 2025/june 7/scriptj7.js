@@ -3,31 +3,45 @@
 //     set interval to exe repeated fun at sp interval ( in mili sec)  .  to stop clear interval
 
 
-  //  on clicking btn  pri  1, 2, 3 on console
+//  on clicking btn  pri  1, 2, 3 on console
 
 
-let btn = document.querySelector('#btn'); 
+let btn = document.querySelector('#btn');
 
-let count=0
-let inter; 
+let count = 0
+let inter;
 
-time = ()=>
-{
+time = () => {
 
-    inter = setInterval ( ()=> {
+  inter = setInterval(() => {
     console.log(count);
     count++;
 
-} , 1000) 
+  }, 1000)
 
-}
+  setTimeout( () => { 
 
-end = () => { 
-    clearInterval (inter) 
-}
-// clear interval   to stop  set interval.  
+    clearInterval (inter); 
+    console.log('interval has been cleared');
+    
+}, 5000); 
+
+}; 
+
+
+
+
+// end = () => {
+//   clearInterval(inter)
+// }
+
+// clear interval   to stop  set interval.
 
 // roll the dice, iski practice. stop after 10 sec, 
+
+
+
+
 
 
 
