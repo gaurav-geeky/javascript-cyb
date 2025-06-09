@@ -13,7 +13,7 @@ console.log(num);  // password of 4 pin.
 
 let dice = parseInt (Math.random() * 6) +1 ; 
 
-console.log(dice);
+console.log(`dice no. ${dice}`);
 
 //   date topic . 
 

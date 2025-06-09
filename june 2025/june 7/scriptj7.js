@@ -29,16 +29,15 @@ time = () => {
 }; 
 
 
-
-
 // end = () => {
 //   clearInterval(inter)
 // }
 
+
+
 // clear interval   to stop  set interval.
 
 // roll the dice, iski practice. stop after 10 sec, 
-
 
 
 
