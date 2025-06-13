@@ -20,8 +20,8 @@ para.style.cssText = "color: pink;  background-color: blue; border: 2px solid re
 //   now, EVENTS   on clicking something   some will happen.  
 //   HTML KE  onclick   click krne par function call ho 
 
-function touch() {    
-    let enter = document.getElementById('ip1'); 
+function touch() {   // fun in line 15 onclick. on change btn 
+    let enter = document.getElementById('ip1');  //  line 13 i/p 
     enter.value = "Delhi"; 
 }
 //      here no need to call function because we are calling function in html and writing that 
@@ -46,6 +46,8 @@ function display() {
 
 //  here onlick is  replaced by   click meaning the SAME... 
 
+
+//   add Event listener 1
 let button = document.getElementById('btn1'); 
 
 button.addEventListener("click", function() { 
@@ -56,6 +58,10 @@ button.addEventListener("click", function() {
 // button.addEventListener("click", display1); 
 
 //   it is same as 9 may , 2025, other batch. 
+
+
+
+//    add Event listener 2
 
 let button1 = document.getElementById('btn2'); 
 

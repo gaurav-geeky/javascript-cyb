@@ -1,4 +1,4 @@
-//      set time out to execu a fun once after tine delay (in mili sec) 
+//  set time out to execute a fun once after tine delay (in mili sec) 
 
 //     set interval to exe repeated fun at sp interval ( in mili sec)  .  to stop clear interval
 
