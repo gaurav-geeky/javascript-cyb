@@ -1,0 +1,42 @@
+
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+body { 
+    width: 100%;
+    height: auto;
+    display: grid;
+    justify-content: center;
+    align-items: center; 
+    /* background-color: azure;  */
+    background-image: url(/snow.jpg); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
+
+#contain { 
+    width: 100%;
+    height: auto;
+    display: block;
+    justify-content: center;
+    align-items: center;  
+    line-height: 30px;
+    padding: 40px;  
+    border: 1px solid black; 
+    background-color: rgb(91, 91, 199); 
+    border-radius: 20px; 
+    color: white;  
+    margin-top: 12em;  
+} 
+#contain .inputs input { 
+    padding: 5px; 
+    width: 100%;
+}
+
+
+
+
+

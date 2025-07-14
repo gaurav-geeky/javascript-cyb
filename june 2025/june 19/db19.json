@@ -1,0 +1,49 @@
+
+{ 
+
+"flight": [
+    { 
+        "name": "Gaurav", 
+        "age": 23, 
+        "Adhar": 123412341234, 
+        "state": "Delhi"
+    },  
+    { 
+        "name": "arun", 
+        "age": 24, 
+        "Adhar": 12341234134, 
+        "state": "maharashtra"
+    },  
+    { 
+        "name": "krish", 
+        "age": 26, 
+        "Adhar": 12342341234, 
+        "state": "tripura"
+    }
+]
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -51,3 +51,12 @@ head.innerHTML = `I am ${age.year} years, ${age.months} months and ${age.days} d
 
 
 
+////            local storage  getItem,  setItem,   removeItem,  clear,    and JSON stringify , parse.  
+
+
+
+
+
+
+
+

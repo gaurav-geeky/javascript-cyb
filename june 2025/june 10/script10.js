@@ -7,8 +7,8 @@ let validate = () => {
     let Pass = document.querySelector('#pass').value.trim()
     let Cpass = document.querySelector('#cpass').value.trim()
 
-    let error = document.querySelector('form p');  
-    error.cssText = "color: red; ";  
+    // let error = document.querySelector('form p');  
+    // error.cssText = "color: red; ";  
 
     let errname = document.querySelector('#errname')
     let erremail = document.querySelector('#erremail')
@@ -16,11 +16,11 @@ let validate = () => {
     let errpass = document.querySelector('#errpass')
     let errcpass = document.querySelector('#errcpass'); 
 
-    // errname.innerHTML = ""; 
-    // erremail.innerHTML = ""; 
-    // errnum.innerHTML = ""; 
-    // errpass.innerHTML = ""; 
-    // errname.innerHTML = "";  
+    errname.innerHTML = ""; 
+    erremail.innerHTML = ""; 
+    errnum.innerHTML = ""; 
+    errpass.innerHTML = ""; 
+    errname.innerHTML = "";  
 
     if (Name == "") {
         errname.innerHTML = "please enter Name";
@@ -54,7 +54,8 @@ let validate = () => {
                 Pass.match( /[!@#$%^&*()]/ ) && 
                 Pass.match( /[a-z]/ ) && 
                 Pass.match( /[A-Z]/ )
-    )) { 
+    )) 
+    { 
         errcpass.innerHTML = "please include special char to password";  
         return false; 
     } 
